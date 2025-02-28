@@ -4,7 +4,7 @@ for option in food_tuple:
     print(option.title())
 
 #food_tuple.append("Ribeye")
-food_tuple = ("lamb chops", "Beefsteak", "ribeye", "pork chops", "chikken tikka")
+food_tuple = ("lamb chops", "Beef steak", "ribeye", "pork chops", "chikken tikka")
 print(f"On today's menu, we offer the following:")
 for option in food_tuple:
     print(option.title())
