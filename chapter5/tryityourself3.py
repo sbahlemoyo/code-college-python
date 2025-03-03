@@ -1,30 +1,30 @@
-usernames = []
+usernames = ["kate", "Sam", "Admin", "Erica", "Bruce"]
 for user in usernames:
-    print(f"Hello {user.title()} , welcome to our page!")
-
-if 'admin' in usernames:
-    print("Hello admin, would you like to see a status report?")
-else:
-    for user in usernames:
-        print(f"Hello {user.title()}, thank you for logging in again.")
+    if user.title() == "admin":
+     print(f"Hello {user.title()}, would you like to see a status report?")
+    else:
+      print(f"Hello {user.title()} , welcome to our page!")
 
 if usernames:
     for user in usernames:
-        print({user})
+        print(user)
 else:
     print("We need to find more users!")
 
 current_users = ["Ben", "Tessa", "May", "Cersei", "Jaime", "John"]
 new_users = ["Naya", "Alexa", "Kate", "John", "Ben"]
-
-for person in new_users:
-    current_users2 = current_users[:]
-    for current in current_users2:
-        current.lower()
-    if new_users in current_users2 :
-        print("User already exists.Enter a new username.")
+#AskDavid
+for new_user in new_users:
+    new_user.lower()
+    if new_user in current_users:
+        print("Username already exists. Enter new username")
     else:
         print("Username available")
+        
+
+
+
+
 
 num = list(range(1,10))
 for no in num:
