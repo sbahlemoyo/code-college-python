@@ -9,5 +9,3 @@ animals = ["cows", "chickens", "lambs", "pork"]
 for animal in animals:
     print(f'{animal.title()} makes for good meat.')
 print("These animals are a great and delicious source of protein")
-
-

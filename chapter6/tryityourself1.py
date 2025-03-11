@@ -20,9 +20,9 @@ print("These are the results of a poll asking people for their favourite numbers
 print(fav_num)
 
 glossary ={
-    'variable':'any word you can assign a value',
-    'data_type':'a form that datacomes in',
-    'list':'a list of data stored inside square brackets'
+    'variable':'any word you can assign/associate with a value',
+    'data_type':'a form that data comes in',
+    'list':'a collection of data stored inside square brackets in a particular order.'
 }
 print("Glossary:\n")
 print("Variable:\t")
@@ -32,6 +32,6 @@ print(f"{glossary['data_type']}")
 print("\nList:\t")
 print(f'{glossary['list']}')
 
-#website registration page whose information gets stored in a dictionary, where each field label is stored as a value and thecorresponding user input is stored as a value.
+#website registration page whose information gets stored in a dictionary, where each field label is stored as a key and the corresponding user input is stored as a value.
 
 

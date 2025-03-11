@@ -1,6 +1,6 @@
 #for num in range(1, 21):
 #    print(num)
-#list1 = list(range(1, 1_000_000))
+#list1 = list(range(1, 1_000_001))
 #print(min(list))
 #print(max(list))
 #print(sum(list))
@@ -12,11 +12,11 @@ multiples = list(range(3, 30, 3))
 for multiple in multiples:
     print(multiple)
 empty = []
-for digit in range(1, 10):
-    cube = digit **2
+for digit in range(1, 11):
+    cube = digit **3
     empty.append(cube)
     print(cube)
 print(empty)
-newlist = [digit **2 for digit in range(1, 11)]
+newlist = [digit **3 for digit in range(1, 11)]
 print(newlist)
  

@@ -11,7 +11,7 @@ if usernames:
 else:
     print("We need to find more users!")
 
-current_users = ["Ben", "Tessa", "May", "Cersei", "Jaime", "John"]
+current_users = ["ben", "tessa", "may", "cersei", "jaime", "john"]
 new_users = ["Naya", "Alexa", "Kate", "John", "Ben"]
 #AskDavid
 for new_user in new_users:
@@ -21,9 +21,6 @@ for new_user in new_users:
     else:
         print("Username available")
         
-
-
-
 
 
 num = list(range(1,10))
