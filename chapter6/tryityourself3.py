@@ -50,3 +50,4 @@ favourite_places = {
 }
 for person, location in favourite_places.items():
     print(f'{person.title()}\'s favourite place to be is {location}\n')
+
