@@ -1,8 +1,0 @@
-In Python I have learned so many things. 
-In Python I have learned about the different data
- types, methods that can be used on those data types
-  to manipulate them to do what i want. 
-In Python I have learned about conditional 
-statements and loops.
-In Python i have also learned about functions and 
-classes.
