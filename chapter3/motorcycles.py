@@ -50,6 +50,3 @@ print(motorcycles[4])
 print(motorcycles[-1])
 
 
-
-
-
