@@ -1,0 +1,1 @@
+#if i had an infinite amount of programming skills 'd create cutting edge apps that are available on the go and make people's lives easier and solve people's everyday problems. 
