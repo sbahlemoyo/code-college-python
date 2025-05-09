@@ -41,7 +41,7 @@ class User:
         self.age = age
         self.gender = gender
         self.email = email
-        self.login_attempts
+        self.login_attempts = 0
 
     def describe_user(self):
         """Displays information that describes user"""
@@ -60,3 +60,14 @@ class User:
         self.login_attempts = 0
 
 user1 = User('sbahle', 'moyo', 24, 'female', 'sbahlem@company.com')
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+user1.increment_login_attempts()
+print(user1.login_attempts)
+user1.rest_login_attempts()
+print(user1.login_attempts)
