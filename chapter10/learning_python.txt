@@ -1,0 +1,6 @@
+In python you can create variables and assign them a value
+In python you can iterate over a list, tuple, set or dictionary using a for loop
+In python you can test for certain conditions using if and else statements
+In python you can perform a task multiple times using a while loop
+In python you can seperate tasks into specific functions.
+In python I learned about objects andd classes, how to create instances of a class and inheritance
