@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
+#to use a style on our plot we need to add it before calling subplots
+plt.style.use('seaborn')
+
 #fig is the whole picture frame and ax is the canvas inside where you draw one specific plot, even if you have one plot at first this setup gives full control when wanting to scale and infuse multiple plots
 fig, ax = plt.subplots()
 
