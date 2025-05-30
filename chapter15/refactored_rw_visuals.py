@@ -9,7 +9,8 @@ while True:
     
     plt.style.use('classic')
     fig, ax = plt.subplots()
-    ax.plot(rw.x_values, rw.y_values, linewidth=1)
+    ax.scatter(rw.x_values, rw.y_values, c= rw.y_values, cmap=plt.cm.Reds , s=1)
+
     
     plt.show()
 
