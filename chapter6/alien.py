@@ -4,6 +4,9 @@ alien_0 = {'color': 'green',
 
 print(alien_0)
 
+new_points = alien_0['points']
+print(f'You just earned {new_points} points!')
+
 #accessing values in a dictionary
 print(alien_0['color'])
 print(alien_0['points'])
@@ -45,9 +48,15 @@ alien_0['x_position'] = alien_0['x_position'] + x_increment
 
 print(f"New position: {alien_0['x_position']}")
 
+print(alien_0['ship'])#an eror will be thrown because ship does not exist in our alien list
+
+
+
 # #removing key-value pairs
 # del alien_0['points']
 # print(alien_0)
+
+
 
 #Nesting
 #making an empty list to add aliens to

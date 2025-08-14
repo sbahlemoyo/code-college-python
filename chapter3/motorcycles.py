@@ -1,31 +1,35 @@
-# motorcycles = ['honda', 'yamaha', 'suzuki']
-# print(motorcycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-#ACCESSING AN IITEM ON THE LIST
+#Modifying an element in a list
 
-# # motorcycles[0] = 'ducati'
-# # print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
 
+
+#####Adding Elements to a list#####
 #APPENDING AN ITEM TO THE END OF A LIST
 
-# motorcycles.append('ducati')
-# print(motorcycles)
+motorcycles.append('ducati')#Append adds the element to the end of the list
+print(motorcycles)
 
-motorcycles = []
+motorcycles = []#You can also append elements to an empty list for example a list that will store user responses after the submit them
 motorcycles.append('honda')
 motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 
-#INSERTING AN ITEM IN A PARTICULAR PART/INDEX IN A LIST
+####INSERTING AN ITEM IN A PARTICULAR PART/INDEX IN A LIST######
 
-# print(motorcycles)
-# motorcycles.insert(1, 'ducati')
-# print(motorcycles)
+print(motorcycles)
+motorcycles.insert(1, 'ducati')#inserts the element at index 1 and shifts all the elements that follow including the element that was at index 1
+print(motorcycles)
 
-#PERMANENTLY REMOVING AN ITEM FROM A LIST
 
-# del motorcycles[0]
-# print(motorcycles)
+
+#####PERMANENTLY REMOVING AN ITEM FROM A LIST######
+
+#del motorcycles[0]#using the del statement
+print(motorcycles)
 
 #USING POP METHOD TO REMOVE AN ITEM AT THE END OF A LIST
 motorcycles.pop()
