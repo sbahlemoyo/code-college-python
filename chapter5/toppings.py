@@ -1,3 +1,10 @@
+#checking for inequality
+requested_topping = 'mushrooms'
+if requested_topping != 'anchovies':
+    print("Hold the anchovies!")
+
+
+#Checking whether a value is in a list
 available_toppings = ['mushrooms', 'olives', 'green peppers','pepperoni', 'pineapple', 'extra cheese']  # List of toppings available in the shop
 
 requested_toppings = ['mushrooms', 'french fries', 'extra cheese']  # List of toppings requested by the customer

@@ -2,7 +2,7 @@ dimensions = (200, 50)
 print(dimensions[0])
 print(dimensions[1])
 
-#throws an error because dimensions is a tuple
+#throws an error because you can't change values in a tuple
 # dimensions[0] = 250
 
 #looping through all values in a tuple

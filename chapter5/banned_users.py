@@ -1,3 +1,4 @@
+#Checking whether a value is not in a list
 banned_users = ['andrew', 'carolina', 'david']  # List of users who are banned
 user = 'marie'                                  # Current user
 

@@ -15,7 +15,7 @@ print("Here is the original list:")
 print(cars)
 print("\nHere is the sorted list:")
 print(sorted(cars))
-print("\nHere is the original list again:")
+print("\nHere is the original list again:")#To show the original list has not changed
 print(cars)
 
 #PRINTING A LIST IN REVERSE
