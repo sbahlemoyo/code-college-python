@@ -39,6 +39,7 @@ favourite_languages = {
     'jen': ['python', 'rust'],
     'sarah': 'c'
 }
+print(favourite_languages['jen'][0])
 
 
 
