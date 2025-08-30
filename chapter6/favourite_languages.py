@@ -24,7 +24,7 @@ if 'erin' not in favourite_lang:
 #more complex example
 for name in sorted(favourite_lang.keys()):
     print(name.title())
-    #utilising if statements with dictionaries
+    #utilising if statements with dictionaries and lists
     if name in friends:
         language = favourite_lang[name].title()
         print(f"\t{name.title()}, I see you love {language}!")
