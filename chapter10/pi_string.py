@@ -6,5 +6,9 @@ contents = path.read_text()
 # print(contents)
 
 lines = contents.splitlines()
+pi_string = ''
 for line in lines:
-    print(line)
+    pi_string += line.lstrip()
+
+print(pi_string)
+print(len(pi_string))
