@@ -1,3 +1,5 @@
+# READING THE CONTENTS OF A FILE
+
 from pathlib import Path
 
 path = Path('pi_digits.txt')
