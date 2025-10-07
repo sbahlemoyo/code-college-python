@@ -8,7 +8,7 @@ class Car:
         self.make = make              # Store the car's make (manufacturer).
         self.model = model            # Store the car's model.
         self.year = year              # Store the car's manufacturing year.
-        self.odometer_reading = 0     # Set a default value for the odometer reading.
+        self.odometer_reading = 30    # Set a default value for the odometer reading.
 
         # We can modify this attribute directly if needed.
         # self.odometer_reading = 23
@@ -41,8 +41,9 @@ class Car:
 # Create an instance of the Car class with specific details.
 my_new_car = Car('audi', 'a4', 2024)
 # Print the descriptive name of the car.
-print(my_new_car.get_descriptive_name())
+# print(my_new_car.get_descriptive_name())
 # Update the odometer reading to 23 miles.
-my_new_car.update_odometer(23)
-# Display the car's current mileage.
+# my_new_car.update_odometer(23)
+
+# # Display the car's current mileage.
 my_new_car.read_odometer()

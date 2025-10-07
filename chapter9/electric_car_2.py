@@ -27,6 +27,6 @@ class ElectricCar(Car):  # Define a new class for electric cars, inheriting from
         self.battery = Battery()  # Create a Battery instance as an attribute of ElectricCar.
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)  # Create an ElectricCar object with specific details.
-print(my_leaf.get_descriptive_name())  # Print the car's descriptive name using a method from Car.
-my_leaf.battery.describe_battery()  # Print the battery details using the Battery class method.
+# print(my_leaf.get_descriptive_name())  # Print the car's descriptive name using a method from Car.
+# my_leaf.battery.describe_battery()  # Print the battery details using the Battery class method.
 my_leaf.battery.get_range()

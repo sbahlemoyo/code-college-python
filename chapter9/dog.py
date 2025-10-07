@@ -27,19 +27,19 @@ german_shepard = Dog('Cassie', 9)
 # Print the name of the dog.
 
 # Accessing Attributes
-print(german_shepard.name)
+# print(german_shepard.name)
 
-# Calling methods
-# Call the roll_over method to simulate the dog rolling over.
-german_shepard.sit()
-german_shepard.roll_over()
+# # # Calling methods
+# # # Call the roll_over method to simulate the dog rolling over.
+# german_shepard.sit()
+# german_shepard.roll_over()
 
-# Creating multiple instances
+# # # Creating multiple instances
 my_dog = Dog('Willie', 6)
 your_dog = Dog('Lucy', 3)
 
-print(my_dog.name)
+# # print(my_dog.name)
 my_dog.sit()
-print(your_dog.age)
+# # print(your_dog.age)
 your_dog.roll_over()
 

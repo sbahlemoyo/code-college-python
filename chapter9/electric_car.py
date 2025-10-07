@@ -19,5 +19,5 @@ class ElectricCar(Car):  # Define a new class ElectricCar that inherits from Car
         print("This car doesn't have a gas tank!")  # Print a message specific to electric cars.
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)  # Create an instance of ElectricCar with specific details.
-print(my_leaf.get_descriptive_name())  # Print the car's descriptive name using a method from Car.
+# print(my_leaf.get_descriptive_name())  # Print the car's descriptive name using a method from Car.
 my_leaf.describe_battery()  # Print the battery details using the ElectricCar method.
